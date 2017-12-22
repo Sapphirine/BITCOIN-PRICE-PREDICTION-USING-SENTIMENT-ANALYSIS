@@ -18,9 +18,9 @@ est = timezone('US/Eastern')
 from twilio.rest import Client
 
 # Your Account SID from twilio.com/console
-account_sid = "AC3899557667afcb2bbc20e9ebecf8befb"
+account_sid = "*******"
 # Your Auth Token from twilio.com/console
-auth_token  = "18c9c35bafb8abb1c009e9aad25a0aec"
+auth_token  = "*******"
 
 client = Client(account_sid, auth_token)
 
